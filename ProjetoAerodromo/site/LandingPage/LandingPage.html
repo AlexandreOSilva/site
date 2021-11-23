@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/LandingPage.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <title>LandingPage</title>
+
+</head>
+
+<body>
+    <div class="page-container">
+
+
+        <header>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8 col-12" style="background-color:rgb(34, 34, 34);">
+                        <h1 style="color: white;">Leiria Air Show</h1>
+                        <h2 style="color: white;">18 Outubro - 83ºAniversario</h2>
+                    </div>
+                    
+                    
+
+                    <div class="col-lg-4 col-12" style="background-color:rgb(0, 116, 194);">
+                        <div class="Centrado">
+                            <h2 style="color: white;">Registe Presença</h2>
+                            <hr id="HR">
+                            <label for="Name" id="Nome">Nome:</label>
+                            <input type="text">
+                            <br>
+                            <label for="Email" id="Email">Email:</label>
+                            <input type="text">
+                            <br>
+                            <input type="submit" value="Enviar" class="submit">
+                            <br>
+                            <h5 style="color: white;">Redes Sociais</h5>
+                            <div style="margin-left:25%; margin-right: 25%; ">
+                                <i class="fab fa-2x fa-facebook-square"></i>
+                                <i class="fab fa-2x fa-instagram-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-12" id="Video">
+                        <video width="600px" height="340px" controls>
+                            <source src=”http://techslides.com/demos/sample-videos/small.ogv” type=video/ogg>
+                            <source src="../LandingPage/video/Air_Show_Exhibition_of_Two_Yellow_Biplanes.mp4"
+                                type=video/mp4>
+                        </video>
+                    </div>
+                    <div class="row">
+                        <div id="Cent">
+                            <div class="col-sm-6" style="background-color:rgb(34, 34, 34);">
+                                <h3 style="color: white;">Paraquedismo</h3>
+
+                            </div>
+
+                            <div class="col-sm-6" style="background-color:rgb(34, 34, 34);">
+                                <h3 style="color: white;">Coleção Historica</h3>
+
+                            </div>
+                            <div class="col-sm-6" style="background-color:rgb(0, 116, 194);">
+
+                                <div class="container">
+                                    <img src="../LandingPage/imagens/parequedismo/P1.jpg" alt="Avatar" class="image"
+                                        style="width:100%">
+                                    <div class="middle">
+                                        <div class="text"><a href="#Paraquedismo">Info</a></div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <br>
+                        </div>
+                        <div class="col-sm-6" style="background-color:rgb(0, 116, 194);">
+
+                            <div class="container">
+                                <img src="../LandingPage/imagens/COLECAO/C1.jpg " alt="Avatar" class="image"
+                                    style="width:100%">
+                                <div class="middle">
+                                    <div class="text"><a href="#Coleção Historica">Info</a></div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <br>
+
+
+                        <div class="col-sm-6" style="background-color:rgb(34, 34, 34);">
+                            <h3 style="color: white;">Aero Crobática</h3>
+                        </div>
+                        <div class="col-sm-6" style="background-color:rgb(34, 34, 34);">
+                            <h3 style="color: white;">Baptismo Voo</h3>
+                        </div>
+                        <div class="col-sm-6" style="background-color:rgb(0, 116, 194);">
+
+                            <div class="container">
+                                <img src="../LandingPage/imagens/acrobaticos/a1 (1).jpeg" alt="Avatar" class="image"
+                                    style="width:100%">
+                                <div class="middle">
+                                    <div class="text"><a href="#Aero Crobática">Info</a></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-sm-6" style="background-color:rgb(0, 116, 194);">
+
+                            <div class="container">
+                                <img src="../LandingPage/imagens/Batismodevoo/b1 (2).jpg" alt="Avatar" class="image"
+                                    style="width:100%">
+                                <div class="middle">
+                                    <div class="text" ><a href="#Baptismo Voo">Info</a></div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <h2>Descrição dos eventos</h2>
+            <hr>
+                <div class="DE" >
+                    <h3 id="Paraquedismo">Paraquedismo</h3>
+                    <p><br>Dá-se o começo:<br>- 10:00H->11:30H<br>- 14:00H->15:30H</p>
+                    <h3 id="Coleção Historica">Coleção Historica</h3>
+                    <p>Dá-se o começo:<br>- 10:00H->17:00H</p>
+                    <h3 id="Aero Crobática">Aero Crobática</h3>
+                    <p>Dá-se o começo:<br>- 16:00H->16:30H</p>
+                    <h3 id="Baptismo Voo">Baptismo Voo</h3>
+                    <p>O batismo de voo é realizado por um piloto credenciado que atende a critérios específicos e consiste num passeio aéreo local, no qual poderá apreciar a paisagem e ,caso deseje, assumir por instantes os comandos da aeronave.
+                        <br><b>Crianças com mais de 5 anos são aceites apenas acompanhadas por um adulto.</b>
+                    </p>
+                </div>
+                
+    </div>
+    </header>
+    <footer>
+    </footer>
+    </div>
+
+</body>
+
+</html>

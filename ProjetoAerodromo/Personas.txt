@@ -1,0 +1,55 @@
+cliente:
+Perf
+Pers
+user: enquanto visitante posso registar ou fazer login,como usuario anonimo posso escrever comentarios.
+
+
+Anonimo:
+Nome:Marta Reis
+Sexo:Femenino
+idade:42
+Nível Economico:Medio
+
+Razão de aceder ao site:
+"Quero saber do que se trata o Aerodromo de Leiria"
+Comportamento:
+Vai ver o que site tem de oferecer e possivelmente deixar um comentario sobre o mesmo.
+
+O que devemos fazer :
+Devemos usar um estilo de letra legivel a qualquer idade
+Devemos criar textos simples mas objetivos
+
+O que não devemos fazer:
+Usar texto com varias cores
+Usar imagens de baixa qualidade
+
+Funcionário Administrador:
+
+
+Nome:Nuno Frazão
+Sexo:Masculino
+idade:51
+Nível Economico:Alto
+
+Razão de aceder ao site:
+Uma vez que sou Funcionário Administrador tenho que saber sempre quais são os funcionarios
+que estarão presentes,quantas viagens vão ser organizadas por dia,notificar improvistos,
+verificar a lista de manutenção de transportes.
+
+O que devemos fazer:
+
+O Funcionário Administrador quando logar no site abra diretamente a pagina de Funcionario
+que estarão presentes no dia.
+
+O que não devemos fazer:
+Tratar o admnistrador como cliente
+
+
+
+
+
+
+
+
+
+
